@@ -18,7 +18,7 @@ def divide(x, y):
     return x / y
 
 # Streamlit app UI
-st.title("Simple Calculator")
+st.title("TC-64 Simple Calculator ")
 
 # Selection box for operation
 operation = st.selectbox("Select operation:", ("Add", "Subtract", "Multiply", "Divide"))
